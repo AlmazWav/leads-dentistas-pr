@@ -1,0 +1,78 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/clinica-lavic",
+      "destination": "/demo-jessica-lavic.html"
+    },
+    {
+      "source": "/clinica-evida",
+      "destination": "/demo-priscila-evida.html"
+    },
+    {
+      "source": "/dra-millena-martins",
+      "destination": "/demo-millena-martins.html"
+    },
+    {
+      "source": "/dra-viviane-meneghini",
+      "destination": "/demo-viviane-meneghini.html"
+    },
+    {
+      "source": "/dr-luahmm-phelipe",
+      "destination": "/demo-luahmm-phelipe.html"
+    },
+    {
+      "source": "/dr-eduardo-serra",
+      "destination": "/demo-eduardo-serra.html"
+    },
+    {
+      "source": "/odontologia-dt",
+      "destination": "/demo-thais-tomazoni.html"
+    },
+    {
+      "source": "/revitta-odontologia",
+      "destination": "/demo-laina-vochikovski.html"
+    },
+    {
+      "source": "/di-dea-odontologia",
+      "destination": "/demo-di-dea.html"
+    },
+    {
+      "source": "/clinica-sorrir",
+      "destination": "/demo-sorrir-ivaipora.html"
+    },
+    {
+      "source": "/integral-odonto",
+      "destination": "/demo-integral-odonto.html"
+    },
+    {
+      "source": "/dr11-odonto",
+      "destination": "/demo-dr11-odonto.html"
+    },
+    {
+      "source": "/maranata-odontologia",
+      "destination": "/demo-maranata.html"
+    },
+    {
+      "source": "/gl-odontologia",
+      "destination": "/demo-gl-odontologia.html"
+    },
+    {
+      "source": "/corazza-odontologia",
+      "destination": "/demo-corazza.html"
+    },
+    {
+      "source": "/dra-verena-possebom",
+      "destination": "/demo-verena-possebom.html"
+    },
+    {
+      "source": "/dra-falyne-kiratcz",
+      "destination": "/demo-falyne-kiratcz.html"
+    },
+    {
+      "source": "/dra-bruna-sasdelli",
+      "destination": "/demo-bruna-sasdelli.html"
+    }
+  ]
+}
