@@ -60,8 +60,9 @@ h2{font-size:29px;margin-bottom:12px}
 .sv b{display:block;font-size:15.5px;margin-bottom:4px;font-weight:600}
 .sv span{font-size:13.5px;color:var(--mut);line-height:1.5}
 /* galeria */
-.gal{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-.gal img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:15px;display:block}
+.gal{display:grid;gap:12px;justify-content:center;grid-template-columns:1fr}
+@media(min-width:700px){.gal.g2{grid-template-columns:repeat(2,minmax(0,320px))}.gal.g3{grid-template-columns:repeat(3,minmax(0,300px))}}
+.gal img{width:100%;aspect-ratio:3/4;max-height:430px;object-fit:cover;border-radius:15px;display:block;margin:0 auto}
 /* depoimentos */
 .dep{background:var(--d);color:#fff}
 .dep h2,.dep .eyebrow{color:#fff}.dep .eyebrow{color:#8ee6ec}
@@ -172,7 +173,7 @@ footer b{color:#fff;font-family:Fraunces,serif;font-size:17px;display:block;marg
   </div>
 </div></section>
 
-<section><div class="w"><p class="eyebrow">O ambiente</p><h2>Conheça o consultório</h2><p class="sub">Um espaço pensado para você se sentir tranquilo desde a chegada.</p><div class="gal"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmj6UOETcSibMP94GeyyHqruwCD5CdGkzDpmFbOTylMuuQAyFCzEmpHevjNjV4EBgiZ2YFHksOwdzfh2A3FnxMQe3HiSuJw8RzKWNGVIyfvj8Z0CZYrpchNrJd8HkJi_sFI22psda-mIrSK=w1200-h900-k-no" alt="Foto do consultório" loading="lazy"></div></div></section>
+<section><div class="w"><p class="eyebrow">O ambiente</p><h2>Conheça o consultório</h2><p class="sub">Um espaço pensado para você se sentir tranquilo desde a chegada.</p><div class="gal g1"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmj6UOETcSibMP94GeyyHqruwCD5CdGkzDpmFbOTylMuuQAyFCzEmpHevjNjV4EBgiZ2YFHksOwdzfh2A3FnxMQe3HiSuJw8RzKWNGVIyfvj8Z0CZYrpchNrJd8HkJi_sFI22psda-mIrSK=w1200-h900-k-no" alt="Foto do consultório" loading="lazy"></div></div></section>
 
 <section class="dep"><div class="w">
   <p class="eyebrow">Quem já foi atendido</p>
