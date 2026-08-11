@@ -247,4 +247,10 @@ function enviar(){
   const t=`Olá! Gostaria de marcar um horário.\n\nNome: ${v('f_nome')}\nTelefone: ${v('f_tel')}\nProcedimento: ${v('f_proc')}\nMelhor período: ${v('f_hor')}`+(v('f_obs')?`\n\nObservação: ${v('f_obs')}`:'')+`\n\n(enviado pelo site)`;
   window.open('https://wa.me/5543999111279?text='+encodeURIComponent(t),'_blank');
 }
+
+document.querySelectorAll('img').forEach(im=>im.addEventListener('error',()=>{
+  const g=im.closest('.gal'), h=im.closest('.hfoto');
+  im.remove(); if(h) h.remove();
+  if(g && !g.querySelector('img')) g.closest('section')?.remove();
+}));
 </script></body></html>
